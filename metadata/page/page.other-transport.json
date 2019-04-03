@@ -1,0 +1,52 @@
+{
+  "_id": "page.other-transport",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.other-transport--radios.auto_name__12",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.other-transport--radios.auto_name__12--radio.auto_value__9",
+          "_type": "radio",
+          "conditionalComponent": {
+            "_id": "page.other-transport--radios.auto_name__12--radio.auto_value__9--textarea.auto_name__13",
+            "_type": "textarea",
+            "label": "State below the type of other transport used and your reasons for using it.",
+            "name": "auto_name__13"
+          },
+          "label": "Yes",
+          "value": "auto_value__9"
+        },
+        {
+          "_id": "page.other-transport--radios.auto_name__12--radio.auto_value__10",
+          "_type": "radio",
+          "label": "No",
+          "value": "auto_value__10"
+        }
+      ],
+      "legend": "Did you take other types of transport?",
+      "name": "auto_name__12"
+    }
+  ],
+  "show": {
+    "all": [
+      {
+        "identifier": "auto_name__7",
+        "operator": "is",
+        "value": "auto_value__1"
+      },
+      {
+        "identifier": "auto_name__10",
+        "operator": "is",
+        "value": "auto_value__6"
+      },
+      {
+        "identifier": "auto_name__11",
+        "operator": "is",
+        "value": "auto_value__8"
+      }
+    ]
+  },
+  "url": "other-transport"
+}
