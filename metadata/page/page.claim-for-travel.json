@@ -4,21 +4,8 @@
   "components": [
     {
       "_id": "page.claim-for-travel--radios.travel_claim",
+      "_isa": "radios.yes-no",
       "_type": "radios",
-      "items": [
-        {
-          "_id": "page.claim-for-travel--radios.travel_claim--radio.yes",
-          "_type": "radio",
-          "label": "Yes",
-          "value": "yes"
-        },
-        {
-          "_id": "page.claim-for-travel--radios.travel_claim--radio.no",
-          "_type": "radio",
-          "label": "No",
-          "value": "no"
-        }
-      ],
       "legend": "Do you want to claim for travel costs?",
       "name": "travel_claim"
     }

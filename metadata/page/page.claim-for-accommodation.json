@@ -4,21 +4,8 @@
   "components": [
     {
       "_id": "page.claim-for-accommodation--radios.auto_name__18",
+      "_isa": "radios.yes-no",
       "_type": "radios",
-      "items": [
-        {
-          "_id": "page.claim-for-accommodation--radios.auto_name__18--radio.yes",
-          "_type": "radio",
-          "label": "Yes",
-          "value": "yes"
-        },
-        {
-          "_id": "page.claim-for-accommodation--radios.auto_name__18--radio.no",
-          "_type": "radio",
-          "label": "No",
-          "value": "no"
-        }
-      ],
       "legend": "Do you want to claim for accommodation?",
       "name": "accommodation"
     }

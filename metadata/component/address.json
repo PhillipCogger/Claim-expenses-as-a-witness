@@ -1,0 +1,37 @@
+{
+  "_id": "address",
+  "_type": "fieldset",
+  "components": [
+    {
+      "_id": "address.building",
+      "_type": "text",
+      "label": "Building number or name",
+      "name": "building"
+    },
+    {
+      "_id": "address.street",
+      "_type": "text",
+      "label": "Street",
+      "name": "street"
+    },
+    {
+      "_id": "address.town",
+      "_type": "text",
+      "label": "Town or city",
+      "name": "town"
+    },
+    {
+      "_id": "address.county",
+      "_type": "text",
+      "label": "County",
+      "name": "county"
+    },
+    {
+      "_id": "address.postcode",
+      "_type": "text",
+      "label": "Postcode",
+      "name": "postcode"
+    }
+  ],
+  "legend": "Address"
+}

@@ -15,10 +15,10 @@
       "name": "employer"
     },
     {
-      "_id": "page.financial-loss-details-earnings--textarea.auto_name__1",
-      "_type": "textarea",
-      "label": "Employer’s address",
-      "name": "employer_address"
+      "_id": "page.financial-loss-details-earnings-address",
+      "_isa": "address",
+      "_type": "fieldset",
+      "model": "employer_address"
     },
     {
       "_id": "page.financial-loss-details-earnings--text.auto_name__1--3",
