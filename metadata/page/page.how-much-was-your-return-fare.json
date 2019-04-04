@@ -7,22 +7,8 @@
       "_type": "number",
       "hint": "Enter an amount in pounds and pence, like £10.50",
       "label": "How much was your return fare per day?",
-      "name": "auto_name__14"
+      "name": "public_transport_fare"
     }
   ],
-  "show": {
-    "all": [
-      {
-        "identifier": "auto_name__7",
-        "operator": "is",
-        "value": "auto_value__1"
-      },
-      {
-        "identifier": "auto_name__10",
-        "operator": "is",
-        "value": "auto_value__5"
-      }
-    ]
-  },
   "url": "how-much-was-your-return-fare"
 }

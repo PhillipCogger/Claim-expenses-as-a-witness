@@ -3,30 +3,34 @@
   "_type": "page.singlequestion",
   "components": [
     {
-      "_id": "page.public-transport--radios.auto_name__10",
+      "_id": "page.public-transport--radios.public_transport",
       "_type": "radios",
       "items": [
         {
-          "_id": "page.public-transport--radios.auto_name__10--radio.auto_value__5",
+          "_id": "page.public-transport--radios.public_transport--radio.yes",
           "_type": "radio",
           "label": "Yes",
-          "value": "auto_value__5"
+          "value": "yes"
         },
         {
-          "_id": "page.public-transport--radios.auto_name__10--radio.auto_value__6",
+          "_id": "page.public-transport--radios.public_transport--radio.no",
           "_type": "radio",
           "label": "No",
-          "value": "auto_value__6"
+          "value": "no"
         }
       ],
       "legend": "Did you take public transport?",
-      "name": "auto_name__10"
+      "name": "public_transport"
     }
   ],
-  "show": {
-    "identifier": "auto_name__7",
+  "enableSteps": true,
+  "showSteps": {
+    "identifier": "public_transport",
     "operator": "is",
-    "value": "auto_value__1"
+    "value": "yes"
   },
+  "steps": [
+    "page.how-much-was-your-return-fare"
+  ],
   "url": "public-transport"
 }

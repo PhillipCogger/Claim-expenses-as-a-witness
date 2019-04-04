@@ -7,35 +7,30 @@
       "_type": "radios",
       "items": [
         {
-          "_id": "page.claim-for-accommodation--radios.auto_name__18--radio.auto_value__4",
+          "_id": "page.claim-for-accommodation--radios.auto_name__18--radio.yes",
           "_type": "radio",
           "label": "Yes",
-          "value": "auto_value__4"
+          "value": "yes"
         },
         {
-          "_id": "page.claim-for-accommodation--radios.auto_name__18--radio.auto_value__5",
+          "_id": "page.claim-for-accommodation--radios.auto_name__18--radio.no",
           "_type": "radio",
           "label": "No",
-          "value": "auto_value__5"
+          "value": "no"
         }
       ],
       "legend": "Do you want to claim for accommodation?",
-      "name": "auto_name__18"
+      "name": "accommodation"
     }
   ],
-  "show": {
-    "all": [
-      {
-        "identifier": "auto_name__7",
-        "operator": "is",
-        "value": "auto_value__2"
-      },
-      {
-        "identifier": "auto_name__8",
-        "operator": "is",
-        "value": "auto_value__4"
-      }
-    ]
+  "enableSteps": true,
+  "showSteps": {
+    "identifier": "accommodation",
+    "operator": "is",
+    "value": "yes"
   },
+  "steps": [
+    "page.accomodation-details"
+  ],
   "url": "claim-for-accommodation"
 }

@@ -3,48 +3,12 @@
   "_type": "page.singlequestion",
   "components": [
     {
-      "_id": "page.how-many-miles-did-you-travel-per-day--number.auto_name__15",
+      "_id": "page.how-many-miles-did-you-travel-per-day--number.miles_travelled",
       "_type": "number",
       "hint": "Enter only numbers, like 1, 5 or 10",
       "label": "How many miles did you travel per day?",
-      "name": "auto_name__15"
+      "name": "miles_travelled"
     }
   ],
-  "show": {
-    "all": [
-      {
-        "0": {
-          "0": {
-            "0": {
-              "identifier": "auto_name__10",
-              "operator": "is",
-              "value": "auto_value__5"
-            },
-            "identifier": "auto_name__7",
-            "operator": "is",
-            "value": "auto_value__1"
-          }
-        },
-        "identifier": "auto_name__7",
-        "operator": "is",
-        "value": "auto_value__1"
-      },
-      {
-        "identifier": "auto_name__10",
-        "operator": "is",
-        "value": "auto_value__6"
-      },
-      {
-        "identifier": "auto_name__11",
-        "operator": "is",
-        "value": "auto_value__7"
-      },
-      {
-        "identifier": "auto_name__12",
-        "operator": "is",
-        "value": "auto_value__10"
-      }
-    ]
-  },
   "url": "how-many-miles-did-you-travel"
 }

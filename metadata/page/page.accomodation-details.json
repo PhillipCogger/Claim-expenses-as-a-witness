@@ -1,0 +1,28 @@
+{
+  "_id": "page.accomodation-details",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.accomodation-details--number.auto_name__1",
+      "_type": "number",
+      "label": "How much was your accommodation per night?",
+      "name": "accommodation_cost"
+    },
+    {
+      "_id": "page.accomodation-details--number.auto_name__2",
+      "_type": "number",
+      "label": "How many nights are you claiming?",
+      "name": "accommodation_duration"
+    },
+    {
+      "_id": "page.accomodation-details--date.auto_name__3",
+      "_type": "date",
+      "label": "Date",
+      "name": "accommodation_date",
+      "repeatable": true,
+      "repeatableHeading": "Give the dates"
+    }
+  ],
+  "heading": "Accommodation details",
+  "url": "accomodation-details"
+}

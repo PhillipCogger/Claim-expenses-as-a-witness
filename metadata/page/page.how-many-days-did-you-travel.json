@@ -7,27 +7,8 @@
       "_type": "number",
       "hint": "Enter only numbers",
       "label": "How many days did you travel?",
-      "name": "auto_name__17"
+      "name": "travel_days"
     }
   ],
-  "show": {
-    "all": [
-      {
-        "identifier": "auto_name__7",
-        "operator": "is",
-        "value": "auto_value__1"
-      },
-      {
-        "identifier": "auto_name__10",
-        "operator": "is",
-        "value": "auto_value__5"
-      },
-      {
-        "identifier": "auto_name__12",
-        "operator": "is",
-        "value": "auto_value__9"
-      }
-    ]
-  },
   "url": "how-many-days-did-you-travel"
 }

@@ -1,0 +1,43 @@
+{
+  "_id": "page.financial-loss-details-earnings",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.financial-loss-details-earnings--text.auto_name__1",
+      "_type": "text",
+      "label": "Occupation",
+      "name": "occupation"
+    },
+    {
+      "_id": "page.financial-loss-details-earnings--text.auto_name__1--2",
+      "_type": "text",
+      "label": "Employer",
+      "name": "employer"
+    },
+    {
+      "_id": "page.financial-loss-details-earnings--textarea.auto_name__1",
+      "_type": "textarea",
+      "label": "Employer’s address",
+      "name": "employer_address"
+    },
+    {
+      "_id": "page.financial-loss-details-earnings--text.auto_name__1--3",
+      "_type": "text",
+      "label": "Employer’s phone",
+      "name": "employer_phone"
+    },
+    {
+      "_id": "page.financial-loss-details-earnings--text.auto_name__1--4",
+      "_type": "text",
+      "label": "Pay/work reference",
+      "name": "employer_ref"
+    }
+  ],
+  "heading": "Details related to loss of earnings",
+  "show": {
+    "identifier": "financial_loss_earnings",
+    "operator": "is",
+    "value": "yes"
+  },
+  "url": "financial-loss-details-earnings"
+}

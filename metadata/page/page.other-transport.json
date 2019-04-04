@@ -3,50 +3,40 @@
   "_type": "page.singlequestion",
   "components": [
     {
-      "_id": "page.other-transport--radios.auto_name__12",
+      "_id": "page.other-transport--radios.other_transport",
       "_type": "radios",
       "items": [
         {
-          "_id": "page.other-transport--radios.auto_name__12--radio.auto_value__9",
+          "_id": "page.other-transport--radios.other_transport--radio.yes",
           "_type": "radio",
           "conditionalComponent": {
-            "_id": "page.other-transport--radios.auto_name__12--radio.auto_value__9--textarea.auto_name__13",
+            "_id": "page.other-transport--radios.other_transport--radio.yes--textarea.auto_name__13",
             "_type": "textarea",
             "label": "State below the type of other transport used and your reasons for using it.",
-            "name": "auto_name__13"
+            "name": "other_transport_details"
           },
           "label": "Yes",
-          "value": "auto_value__9"
+          "value": "yes"
         },
         {
-          "_id": "page.other-transport--radios.auto_name__12--radio.auto_value__10",
+          "_id": "page.other-transport--radios.other_transport--radio.no",
           "_type": "radio",
           "label": "No",
-          "value": "auto_value__10"
+          "value": "no"
         }
       ],
       "legend": "Did you take other types of transport?",
-      "name": "auto_name__12"
+      "name": "other_transport"
     }
   ],
-  "show": {
-    "all": [
-      {
-        "identifier": "auto_name__7",
-        "operator": "is",
-        "value": "auto_value__1"
-      },
-      {
-        "identifier": "auto_name__10",
-        "operator": "is",
-        "value": "auto_value__6"
-      },
-      {
-        "identifier": "auto_name__11",
-        "operator": "is",
-        "value": "auto_value__8"
-      }
-    ]
+  "enableSteps": true,
+  "showSteps": {
+    "identifier": "other_transport",
+    "operator": "is",
+    "value": "yes"
   },
+  "steps": [
+    "page.how-much-was-your-return-journey"
+  ],
   "url": "other-transport"
 }

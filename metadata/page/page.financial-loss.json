@@ -3,44 +3,35 @@
   "_type": "page.singlequestion",
   "components": [
     {
-      "_id": "page.financial-loss--radios.auto_name__9",
+      "_id": "page.financial-loss--radios.financial_loss",
       "_type": "radios",
       "items": [
         {
-          "_id": "page.financial-loss--radios.auto_name__9--radio.auto_value__11",
+          "_id": "page.financial-loss--radios.financial_loss--radio.yes",
           "_type": "radio",
           "label": "Yes",
-          "value": "auto_value__11"
+          "value": "yes"
         },
         {
-          "_id": "page.financial-loss--radios.auto_name__9--radio.auto_value__12",
+          "_id": "page.financial-loss--radios.financial_loss--radio.no",
           "_type": "radio",
           "label": "No",
-          "value": "auto_value__12"
+          "value": "no"
         }
       ],
       "legend": "Do you want to claim for financial loss?",
-      "name": "auto_name__9"
+      "name": "financial_loss"
     }
   ],
-  "show": {
-    "all": [
-      {
-        "identifier": "auto_name__7",
-        "operator": "is",
-        "value": "auto_value__2"
-      },
-      {
-        "identifier": "auto_name__8",
-        "operator": "is",
-        "value": "auto_value__4"
-      },
-      {
-        "identifier": "auto_name__18",
-        "operator": "is",
-        "value": "auto_value__5"
-      }
-    ]
+  "enableSteps": true,
+  "showSteps": {
+    "identifier": "financial_loss",
+    "operator": "is",
+    "value": "yes"
   },
+  "steps": [
+    "page.financial-loss-details",
+    "page.financial-loss-details-earnings"
+  ],
   "url": "financial-loss-expenses"
 }

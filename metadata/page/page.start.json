@@ -6,17 +6,11 @@
   "steps": [
     "page.your-details",
     "page.claim-for-travel",
-    "page.subsistence-expenses",
+    "page.subsistence-dates-and-times",
     "page.claim-for-accommodation",
     "page.financial-loss",
-    "page.public-transport",
-    "page.private-transport",
-    "page.other-transport",
-    "page.how-much-was-your-return-fare",
-    "page.how-many-miles-did-you-travel-per-day",
-    "page.how-much-was-your-return-journey",
-    "page.how-many-days-did-you-travel",
-    "page.subsistence-dates-and-times"
+    "page.check",
+    "page.confirmation"
   ],
   "url": "/"
 }
