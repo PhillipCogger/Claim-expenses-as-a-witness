@@ -4,10 +4,17 @@
   "body": "An allowance may be claimed towards the cost of refreshments and meals during your attendance at court.",
   "components": [
     {
-      "_id": "page.subsistence-dates-and-times--fieldset",
-      "_type": "fieldset"
+      "_id": "page.subsistence-dates-and-times--radios.auto_name__1",
+      "_isa": "radios.yes-no",
+      "_type": "radios",
+      "legend": "Do you want to claim for subsistence?",
+      "name": "auto_name__1"
     }
   ],
+  "enableSteps": true,
   "heading": "Subsistence (meals and refreshments)",
+  "steps": [
+    "page.subsistence-details"
+  ],
   "url": "subsistence-dates-and-times"
 }
