@@ -1,5 +1,30 @@
 {
   "_id": "page.subsistence-details",
   "_type": "page.form",
+  "body": "You can claim an allowance towards the cost of refreshments and meals during your time at court. You will not receive more than the maximum amount allowable. See [witness expenses and allowances](https://www.cps.gov.uk/legal-guidance/witness-expenses-and-allowances).",
+  "components": [
+    {
+      "_id": "page.subsistence-details--fieldset",
+      "_type": "fieldset",
+      "components": [
+        {
+          "_id": "page.subsistence-details--fieldset--date.auto_name__2",
+          "_type": "date",
+          "name": "auto_name__2"
+        },
+        {
+          "_id": "page.subsistence-details--fieldset--number.auto_name__3",
+          "_type": "number",
+          "label": "Amount paid",
+          "name": "auto_name__3"
+        }
+      ],
+      "legend": "Date stayed",
+      "model": "model_auto__1",
+      "repeatable": true,
+      "repeatableMaximum": 10
+    }
+  ],
+  "heading": "Details of subsistence you want to claim for",
   "url": "subsistence-details"
 }

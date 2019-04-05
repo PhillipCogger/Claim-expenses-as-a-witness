@@ -2,7 +2,7 @@
   "_id": "page.start",
   "_type": "page.start",
   "body": "This service is for witnesses to claim expenses.\r\n\r\nYou can claim for:\r\n\r\n* Travel\r\n* Meals and refreshments (subsistence)\r\n* Financial loss",
-  "heading": "Claim expenses as a witness",
+  "heading": "Claim expenses as an ordinary witness",
   "steps": [
     "page.your-details",
     "page.claim-for-travel",

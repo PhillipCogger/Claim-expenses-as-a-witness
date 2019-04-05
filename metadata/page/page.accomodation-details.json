@@ -3,24 +3,31 @@
   "_type": "page.form",
   "components": [
     {
-      "_id": "page.accomodation-details--number.auto_name__1",
-      "_type": "number",
-      "label": "How much was your accommodation per night?",
-      "name": "accommodation_cost"
-    },
-    {
-      "_id": "page.accomodation-details--number.auto_name__2",
-      "_type": "number",
-      "label": "How many nights are you claiming?",
-      "name": "accommodation_duration"
-    },
-    {
-      "_id": "page.accomodation-details--date.auto_name__3",
-      "_type": "date",
-      "label": "Date",
-      "name": "accommodation_date",
+      "_id": "page.accomodation-details--fieldset",
+      "_type": "fieldset",
+      "components": [
+        {
+          "_id": "page.accomodation-details--fieldset--date.auto_name__5",
+          "_type": "date",
+          "name": "auto_name__5"
+        },
+        {
+          "_id": "page.accomodation-details--fieldset--number.auto_name__6",
+          "_type": "number",
+          "label": "Amount paid",
+          "name": "auto_name__6"
+        },
+        {
+          "_id": "page.accomodation-details--fieldset--fileupload.auto_name__7",
+          "_type": "fileupload",
+          "label": "Upload receipt",
+          "name": "auto_name__7"
+        }
+      ],
+      "legend": "When you stayed",
+      "model": "model_auto__2",
       "repeatable": true,
-      "repeatableHeading": "Give the dates"
+      "repeatableMaximum": 10
     }
   ],
   "heading": "Accommodation details",
