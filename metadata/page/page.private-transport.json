@@ -17,7 +17,7 @@
     "value": "yes"
   },
   "steps": [
-    "page.how-many-miles-did-you-travel-per-day"
+    "page.own-transport-details"
   ],
   "url": "private-transport"
 }

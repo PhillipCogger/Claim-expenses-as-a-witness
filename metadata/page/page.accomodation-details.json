@@ -9,6 +9,7 @@
         {
           "_id": "page.accomodation-details--fieldset--date.auto_name__5",
           "_type": "date",
+          "label": "Date you stayed",
           "name": "auto_name__5"
         },
         {

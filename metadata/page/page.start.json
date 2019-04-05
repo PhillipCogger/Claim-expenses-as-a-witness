@@ -2,6 +2,13 @@
   "_id": "page.start",
   "_type": "page.start",
   "body": "This service is for witnesses to claim expenses.\r\n\r\nYou can claim for:\r\n\r\n* Travel\r\n* Meals and refreshments (subsistence)\r\n* Financial loss",
+  "components": [
+    {
+      "_id": "page.start--inset",
+      "_type": "inset",
+      "html": "Make sure you get receipts for travel, meals and accommodation, as you'll need these to claim for expenses."
+    }
+  ],
   "heading": "Claim expenses as an ordinary witness",
   "steps": [
     "page.your-details",

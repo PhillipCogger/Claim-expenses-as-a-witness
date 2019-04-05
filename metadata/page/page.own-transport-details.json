@@ -1,0 +1,31 @@
+{
+  "_id": "page.own-transport-details",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.own-transport-details--fieldset",
+      "_type": "fieldset",
+      "components": [
+        {
+          "_id": "page.own-transport-details--fieldset--date.auto_name__9",
+          "_type": "date",
+          "label": "Date",
+          "name": "auto_name__9"
+        },
+        {
+          "_id": "page.own-transport-details--fieldset--number.auto_name__10",
+          "_type": "number",
+          "label": "Amount paid",
+          "name": "auto_name__10"
+        }
+      ],
+      "legend": "Travel details",
+      "model": "model_auto__4",
+      "repeatable": true,
+      "repeatableMaximum": 10
+    }
+  ],
+  "heading": "Details of your own transport you want to claim for",
+  "lede": "You can add multiple claims",
+  "url": "own-transport-details"
+}
