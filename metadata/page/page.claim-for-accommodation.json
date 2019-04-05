@@ -8,19 +8,16 @@
       "_type": "radios",
       "items": [
         {
-          "$component": true,
-          "$definition": true,
-          "$option": true,
-          "_id": "page.claim-for-accommodation--radios.auto_name__18--radio.auto_value__2",
-          "_type": "radio",
-          "label": "Yes",
-          "value": "auto_value__2"
-        },
-        {
           "_id": "page.claim-for-accommodation--radios.auto_name__18--radio.auto_value__1",
           "_type": "radio",
-          "label": "No",
+          "label": "Yes",
           "value": "auto_value__1"
+        },
+        {
+          "_id": "page.claim-for-accommodation--radios.auto_name__18--radio.auto_value__2",
+          "_type": "radio",
+          "label": "No",
+          "value": "auto_value__2"
         }
       ],
       "legend": "Do you want to claim for accommodation?",

@@ -44,5 +44,10 @@
   ],
   "heading": "Details of public transport you want to claim for",
   "lede": "You can add multiple claims.",
+  "show": {
+    "identifier": "public_transport",
+    "operator": "is",
+    "value": "auto_value__5"
+  },
   "url": "public-transport-details"
 }

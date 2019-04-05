@@ -33,10 +33,6 @@
   ],
   "heading": "Accommodation details",
   "lede": "You can add multiple claims.",
-  "show": {
-    "identifier": "accommodation",
-    "operator": "is",
-    "value": "auto_value__2"
-  },
+  "show": true,
   "url": "accomodation-details"
 }
