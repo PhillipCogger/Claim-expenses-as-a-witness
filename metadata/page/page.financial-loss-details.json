@@ -3,20 +3,12 @@
   "_type": "page.form",
   "components": [
     {
-      "$component": true,
-      "$control": true,
-      "$definition": true,
-      "$field": true,
       "_id": "page.financial-loss-details--number.auto_name__1",
       "_type": "number",
       "label": "How many days are you claiming?",
       "name": "financial_loss_days"
     },
     {
-      "$component": true,
-      "$control": true,
-      "$definition": true,
-      "$field": true,
       "_id": "page.financial-loss-details--number.auto_name__1--2",
       "_type": "number",
       "hint": "Under 4 hours",
@@ -24,10 +16,6 @@
       "name": "financial_loss_half_days"
     },
     {
-      "$component": true,
-      "$control": true,
-      "$definition": true,
-      "$field": true,
       "_id": "page.financial-loss-details--number.auto_name__1--3",
       "_type": "number",
       "label": "How much are you claiming per day?",
