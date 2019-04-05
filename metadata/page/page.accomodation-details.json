@@ -9,7 +9,7 @@
         {
           "_id": "page.accomodation-details--fieldset--date.auto_name__5",
           "_type": "date",
-          "label": "Date you stayed",
+          "label": "Date",
           "name": "auto_name__5"
         },
         {
@@ -21,16 +21,22 @@
         {
           "_id": "page.accomodation-details--fieldset--fileupload.auto_name__7",
           "_type": "fileupload",
-          "label": "Upload receipt",
+          "label": "Attach receipt for accommodation",
           "name": "auto_name__7"
         }
       ],
-      "legend": "When you stayed",
+      "legend": "Accommodation details",
       "model": "model_auto__2",
       "repeatable": true,
       "repeatableMaximum": 10
     }
   ],
   "heading": "Accommodation details",
+  "lede": "You can add multiple claims.",
+  "show": {
+    "identifier": "accommodation",
+    "operator": "is",
+    "value": "auto_value__2"
+  },
   "url": "accomodation-details"
 }

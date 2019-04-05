@@ -19,8 +19,7 @@
   "steps": [
     "page.public-transport",
     "page.private-transport",
-    "page.other-transport",
-    "page.how-many-days-did-you-travel"
+    "page.other-transport"
   ],
   "url": "claim-for-travel"
 }

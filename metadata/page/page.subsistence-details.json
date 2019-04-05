@@ -10,21 +10,32 @@
         {
           "_id": "page.subsistence-details--fieldset--date.auto_name__2",
           "_type": "date",
-          "name": "auto_name__2"
+          "label": "Date",
+          "name": "auto_name__2",
+          "validation": {
+            "required": false
+          }
         },
         {
           "_id": "page.subsistence-details--fieldset--number.auto_name__3",
           "_type": "number",
           "label": "Amount paid",
           "name": "auto_name__3"
+        },
+        {
+          "_id": "page.subsistence-details--fieldset--fileupload.auto_name__8",
+          "_type": "fileupload",
+          "label": "Attach receipt for subsistence",
+          "name": "auto_name__8"
         }
       ],
-      "legend": "Date stayed",
+      "legend": "Subsistence details",
       "model": "model_auto__1",
       "repeatable": true,
       "repeatableMaximum": 10
     }
   ],
   "heading": "Details of subsistence you want to claim for",
+  "lede": "You can add multiple claims.",
   "url": "subsistence-details"
 }

@@ -34,7 +34,7 @@
     "value": "yes"
   },
   "steps": [
-    "page.how-much-was-your-return-journey"
+    "page.other-transport-details"
   ],
   "url": "other-transport"
 }

@@ -6,7 +6,7 @@
       "_id": "page.private-transport--radios.private_transport",
       "_isa": "radios.yes-no",
       "_type": "radios",
-      "legend": "Did you use your own transport?",
+      "legend": "Did you use private transport?",
       "name": "private_transport"
     }
   ],

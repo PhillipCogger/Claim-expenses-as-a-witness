@@ -17,6 +17,12 @@
           "_type": "number",
           "label": "Amount paid",
           "name": "auto_name__10"
+        },
+        {
+          "_id": "page.own-transport-details--fieldset--fileupload.auto_name__4",
+          "_type": "fileupload",
+          "label": "Attach receipt",
+          "name": "auto_name__4"
         }
       ],
       "legend": "Travel details",
@@ -25,7 +31,7 @@
       "repeatableMaximum": 10
     }
   ],
-  "heading": "Details of your own transport you want to claim for",
-  "lede": "You can add multiple claims",
-  "url": "own-transport-details"
+  "heading": "Details of private transport you want to claim for",
+  "lede": "You can add multiple claims.",
+  "url": "private-transport-details"
 }
