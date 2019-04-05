@@ -10,7 +10,10 @@
           "_id": "page.own-transport-details--fieldset--date.auto_name__9",
           "_type": "date",
           "label": "Date",
-          "name": "auto_name__9"
+          "name": "auto_name__9",
+          "validation": {
+            "required": false
+          }
         },
         {
           "_id": "page.own-transport-details--fieldset--number.auto_name__10",
