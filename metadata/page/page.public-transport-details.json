@@ -7,10 +7,6 @@
       "_type": "fieldset",
       "components": [
         {
-          "$component": true,
-          "$control": true,
-          "$definition": true,
-          "$field": true,
           "_id": "page.public-transport-details--fieldset--date.auto_name__4",
           "_type": "date",
           "label": "Date",
@@ -18,10 +14,6 @@
           "validation": {}
         },
         {
-          "$component": true,
-          "$control": true,
-          "$definition": true,
-          "$field": true,
           "_id": "page.public-transport-details--fieldset--number.auto_name__8",
           "_type": "number",
           "label": "Amount paid",
