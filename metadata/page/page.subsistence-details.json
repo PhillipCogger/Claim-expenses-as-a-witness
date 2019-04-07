@@ -12,9 +12,7 @@
           "_type": "date",
           "label": "Date",
           "name": "auto_name__2",
-          "validation": {
-            "required": false
-          }
+          "validation": {}
         },
         {
           "_id": "page.subsistence-details--fieldset--number.auto_name__3",

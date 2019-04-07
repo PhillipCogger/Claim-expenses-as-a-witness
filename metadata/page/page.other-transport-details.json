@@ -11,9 +11,7 @@
           "_type": "date",
           "label": "Date",
           "name": "auto_name__12",
-          "validation": {
-            "required": false
-          }
+          "validation": {}
         },
         {
           "_id": "page.other-transport-details--fieldset--number.auto_name__13",

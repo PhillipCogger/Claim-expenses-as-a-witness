@@ -15,9 +15,7 @@
           "_type": "date",
           "label": "Date",
           "name": "travel-date-public-transport",
-          "validation": {
-            "required": false
-          }
+          "validation": {}
         },
         {
           "$component": true,
@@ -44,5 +42,5 @@
   ],
   "heading": "Details of public transport you want to claim for",
   "lede": "You can add multiple claims.",
-  "url": "public-transport-details"
+  "url": "details"
 }
