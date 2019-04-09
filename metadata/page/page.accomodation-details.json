@@ -11,9 +11,7 @@
           "_type": "date",
           "label": "Date",
           "name": "date",
-          "validation": {
-            "required": false
-          }
+          "validation": {}
         },
         {
           "_id": "page.accomodation-details--fieldset--number.auto_name__6",
