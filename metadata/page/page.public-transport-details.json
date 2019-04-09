@@ -42,7 +42,7 @@
       "repeatableMaximum": 10
     }
   ],
-  "heading": "Details of public transport you want to claim for",
+  "heading": "Public transport you want to claim for",
   "lede": "You can add multiple claims.",
   "url": "public-transport-details"
 }

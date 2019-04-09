@@ -34,7 +34,7 @@
       "repeatableMaximum": 10
     }
   ],
-  "heading": "Accommodation details",
+  "heading": "Accommodation you want to claim for",
   "lede": "You can add multiple claims.",
   "show": true,
   "url": "accomodation-details"

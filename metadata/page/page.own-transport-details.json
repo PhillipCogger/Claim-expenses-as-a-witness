@@ -34,7 +34,7 @@
       "repeatableMaximum": 10
     }
   ],
-  "heading": "Details of private transport you want to claim for",
+  "heading": "Private transport you want to claim for",
   "lede": "You can add multiple claims.",
   "url": "private-transport-details"
 }
