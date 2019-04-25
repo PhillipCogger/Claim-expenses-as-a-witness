@@ -27,7 +27,7 @@
         }
       ],
       "legend": "Accommodation details",
-      "model": "accommodation_details",
+      "namespace": "accommodation_details",
       "repeatable": true,
       "repeatableMaximum": 10
     }

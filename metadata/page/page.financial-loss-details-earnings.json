@@ -19,7 +19,7 @@
       "_isa": "address",
       "_type": "fieldset",
       "legend": "Employer’s address",
-      "model": "employer_address"
+      "namespace": "employer_address"
     },
     {
       "_id": "page.financial-loss-details-earnings--text.auto_name__1--3",
